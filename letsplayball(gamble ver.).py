@@ -48,8 +48,8 @@ for i in range(ballnum):
     y=random.randint(100,300)
     size=random.randint(20,40)
     r=random.randint(0,40)
-    g=random.randint(100,255)
-    b=random.randint(20,140)
+    g=random.randint(20,140)
+    b=random.randint(100,255) #主色
     speedx=random.randint(-5,5)
     speedy=random.randint(-5,5)
     ballx=Ball(x=x,y=y,color=(r,g,b),speedx=speedx,speedy=speedy,size=size)
